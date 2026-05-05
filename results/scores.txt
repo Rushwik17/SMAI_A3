@@ -1,0 +1,29 @@
+Classification using News Article test evaluation output:
+Accuracy : 0.9228
+Precision: 0.9257
+Recall   : 0.9225
+F1 Score : 0.9234
+
+Time for evaluating 30 sample:
+GPU:
+    One by one: 0.4501 seconds
+    Batch: 0.1745 seconds
+
+CPU:
+    One by one: 5.7319 seconds
+    Batch: 4.4033 seconds
+
+Classification using News Headline test evaluation output:
+Accuracy : 0.8827
+Precision: 0.8852
+Recall   : 0.8825
+F1 Score : 0.8830
+
+Time for evaluating 30 sample:
+GPU:
+    One by one: 0.3180 seconds
+    Batch: 0.1676 seconds
+
+CPU:
+    One by one: 5.7191 seconds
+    Batch: 4.5178 seconds
