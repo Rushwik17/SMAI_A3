@@ -6,7 +6,7 @@ from google import genai
 
 CACHE_PATH = "cache/summary_cache.json"
 MAX_WORKERS = 5
-client = genai.Client(api_key="AIzaSyDnHno_Jogxv8xQiTkac6SkND5m1ze_eCs")
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 def hash_text(text):
     return hashlib.md5(text.encode("utf-8")).hexdigest()
